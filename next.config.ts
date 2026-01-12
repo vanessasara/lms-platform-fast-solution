@@ -16,4 +16,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export defau
+export default nextConfig;
