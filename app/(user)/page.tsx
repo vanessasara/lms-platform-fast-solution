@@ -10,7 +10,7 @@ import StudentFeedbacks from '@/components/sections/StudentFeedbacks';
 import Newsletter from '@/components/sections/Newsletter';
 import LatestArticles from '@/components/sections/LatestArticles';
 import Footer from '@/components/sections/Footer';
-import LogoTicker from '@/components/sections/LogoTicker';
+// import LogoTicker from '@/components/sections/LogoTicker';
 import ServiceSolutionsSection from '@/components/sections/ServiceSolutionsSection';
 
 export const dynamic = "force-static";
@@ -20,7 +20,7 @@ const App = async () => {
   return (
     <div className="min-h-screen bg-background pt-16">
       <HeroSection />
-      <LogoTicker/>
+      {/* <LogoTicker/> */}
       <ServiceSolutionsSection/>
       <CategoriesSection />
       <LearnPressAddOns />
